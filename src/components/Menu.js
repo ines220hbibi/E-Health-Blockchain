@@ -13,6 +13,7 @@ import {NavLink} from "react-router-dom";
 
 class Menu extends Component {
   render() {
+	 
    
     return (
 
@@ -30,8 +31,8 @@ class Menu extends Component {
 									<div className="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
 										
 										<div className="header_top_phone">
-											<i className="fa fa-phone" aria-hidden="true"></i>
-											<span>Contact</span>
+											
+											<span><a href="_blank" style={{ color:'#32C69A', fontWeight: 'bold'}}>Login</a></span>
 										</div>
 									</div>
 									<div className="hamburger ml-auto"><i className="fa fa-bars" aria-hidden="true"></i></div>

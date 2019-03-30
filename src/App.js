@@ -13,7 +13,7 @@ import Layout from "./components/Layout";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 import Menu from "./components/Menu";
-import Login from "./components/Login";
+
 import Doctors from "./components/Doctors";
 import News from "./components/News";
 import './plugins/OwlCarousel2-2.2.1/owl.carousel.css';
@@ -44,7 +44,7 @@ class App extends Component {
 								<Route path='/doctors' component={Doctors}></Route>
 								<Route path='/news' component={News}></Route>
 								<Route component={Content}></Route>
-								<Route path='/login' component={Login}> </Route>
+								
 								</Switch>
 								</Route>
 								
